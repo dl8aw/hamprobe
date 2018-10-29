@@ -1,16 +1,15 @@
-import binascii
-import datetime
-import functools
+import os
+import db
 import hmac
-import ipaddress
 import json
 import logging
-import os
-
+import binascii
 import influxdb
+import datetime
+import functools
+import ipaddress
 from flask import Flask, Response, request, g, redirect, jsonify, abort, send_file
 
-import db
 
 logging.getLogger().setLevel(logging.DEBUG)
 
