@@ -8,14 +8,14 @@ Zur Analyse der Eigenschaften dieses Netzes sollen Messproben verteilt, mit dies
 
 ## Probe
 
- - Die [Software](https://github.com/tobyp/hamprobe) ist Open Source, wird öffentlich entwickelt, und läuft auf allen Platformen, die Python 3 unterstützen (mit besonderem Augenmerk auf Raspberry Pi/Beaglebone).
+ - Die [Software](https://github.com/tobyp/hamprobe) ist Open Source, wird öffentlich entwickelt, und läuft auf allen Plattformen, die Python 3 unterstützen (mit besonderem Augenmerk auf Raspberry Pi/Beaglebone).
  - Gemessen werden erstmal Links (Latenz, Bandbreite, Verlustraten) und Topologie (Netzdichte, Netzelastizität, Routenstabilität).
  - Die Daten sind für jedermann [einsehbar](http://hamprobe.net/grafana) und [runterladbar](http://hamprobe.net/dumps), die Ergebnisse werden anschließend auch veröffentlicht.
 
 ## Installation
 
 Die Software kann auf jedem unix-artigen System laufen, das Python 3 hat und ans HAMNET angeschlossen ist.
-Es werden root-Rechte benötigt, weil auf rohe ICMP sockets zugegriffen wird.
+Es werden root-Rechte benötigt, weil auf rohe ICMP Sockets zugegriffen wird.
 
 ### Installer
 
